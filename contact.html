@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تماس با ما و مشاوره خصوصی فیتینگ | آتلیه لیندا (Lynda Lingerie)</title>
+  <meta name="description" content="ارتباط مستقیم با کارشناسان فیتینگ بانوان لیندا از طریق تلگرام، تلفن و واتساپ. پاسخگویی به سوالات سایزبندی، پیگیری سفارش و ارسال محرمانه." />
+  <meta property="og:title" content="تماس با ما و مشاوره فیتینگ | لیندا" />
+  <meta property="og:description" content="ارتباط مستقیم و خصوصی با آتلیه تخصصی لباس خواب و لانژ لیندا." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#8a4853",
+            "primary-container": "#a6606b",
+            "primary-fixed": "#ffd9dd",
+            "primary-fixed-dim": "#ffb2bc",
+            "secondary": "#695b5f",
+            "secondary-container": "#eedbe0",
+            "secondary-fixed": "#f1dee3",
+            "secondary-fixed-dim": "#d4c2c7",
+            "tertiary": "#735c00",
+            "tertiary-container": "#cba72f",
+            "tertiary-fixed": "#ffe088",
+            "surface": "#fcf9f7",
+            "surface-container-low": "#f6f3f1",
+            "surface-container": "#f0edeb",
+            "surface-container-high": "#eae8e6",
+            "surface-container-highest": "#e5e2e0",
+            "surface-container-lowest": "#ffffff",
+            "on-surface": "#1b1c1b",
+            "on-surface-variant": "#524345",
+            "outline": "#857374",
+            "outline-variant": "#d7c1c3",
+            "error": "#ba1a1a",
+          },
+          spacing: {
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "margin-mobile": "1.25rem",
+            "margin": "3rem"
+          },
+          fontFamily: {
+            "serif": ["Noto Serif", "Georgia", "serif"],
+            "sans": ["Vazirmatn", "Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-surface font-sans text-on-surface antialiased selection:bg-primary/20 selection:text-primary">
+
+  <!-- ========================
+       TOP HEADER & NAV
+       ======================== -->
+  <header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] border-b border-surface-container/60">
+    <div class="w-full bg-surface-container-low/80 py-1.5 px-margin-mobile lg:px-margin text-center text-on-surface-variant text-xs flex items-center justify-between border-b border-surface-container/40">
+      <div class="hidden md:flex items-center gap-1.5 text-primary font-medium">
+        <span class="material-symbols-outlined text-[16px]">verified_user</span>
+        <span>ضمانت تعویض سایز رایگان در منزل با پیک اختصاصی</span>
+      </div>
+      <div class="flex items-center justify-center gap-4 mx-auto md:mx-0">
+        <span class="flex items-center gap-1">
+          <span class="material-symbols-outlined text-[16px] text-primary">lock</span>
+          <span>بسته‌بندی کاملاً محرمانه و بدون نام کالا</span>
+        </span>
+        <span class="text-outline-variant">•</span>
+        <span class="flex items-center gap-1 text-tertiary">
+          <span class="material-symbols-outlined text-[16px]">local_shipping</span>
+          <span>ارسال رایگان برای خریدهای بالای ۱.۵ میلیون تومان</span>
+        </span>
+      </div>
+      <div class="hidden lg:flex items-center gap-2 text-outline text-xs">
+        <span class="material-symbols-outlined text-[15px]">support_agent</span>
+        <span>مشاوره و فیتینگ اختصاصی: ۰۲۱-۸۸۲۲۴۴۶۶</span>
+      </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <div class="h-20 w-full max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-lg">
+      <div class="flex items-center gap-3 shrink-0">
+        <button class="xl:hidden w-10 h-10 rounded-full flex items-center justify-center hover:bg-surface-container text-on-surface-variant transition-colors" onclick="toggleMobileMenu()" title="منو">
+          <span class="material-symbols-outlined text-[24px]">menu</span>
+        </button>
+
+        <a href="index.html" class="flex items-center gap-3 group">
+          <img alt="Lynda Lingerie Brand Logo" class="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1V44vLTbfo_YyxnZRPm1LfgWuCZJU5TdoU-Pv1DQFTKajQ7T5A5oYpPUYPD3ZTNgiSwKm8llONHZ7S_fCdbgTgip9nt_8zow7C5RN1tetS2j425aahrVpPr4UcpQ1optNWQiiEXXLGwCS9qOHuv6Ien9srqc0bUN8WhjG5fi_mYVfOQLhjHUV3npZ6XEhLN4ZfaoFk0hOawQLfopw9zoDQLR0YYpo41F3ZCYdTD7s9q9c1DOcazUhEBYL0" />
+          <div class="flex flex-col">
+            <span class="font-serif text-2xl text-primary font-bold leading-none">لیندا</span>
+            <span class="text-[10px] text-on-surface-variant tracking-wider mt-0.5 font-medium">آتلیه تخصصی لباس خواب و لانژ</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="hidden xl:flex items-center gap-7">
+        <a href="index.html" class="nav-link font-medium text-sm text-on-surface-variant hover:text-on-surface py-2">صفحه نخست</a>
+        <a href="product.html" class="nav-link font-medium text-sm text-on-surface-variant hover:text-on-surface py-2">ست‌های دانتل و مجلسی</a>
+        <a href="index.html#size-calculator" class="nav-link font-medium text-sm text-on-surface-variant hover:text-on-surface py-2">راهنمای هوشمند سایز</a>
+        <a href="about.html" class="nav-link font-medium text-sm text-on-surface-variant hover:text-on-surface py-2">درباره آتلیه</a>
+        <a href="contact.html" class="nav-link active font-medium text-sm text-primary py-2 font-semibold">تماس با ما</a>
+        <a href="checkout.html" class="nav-link font-medium text-sm text-on-surface-variant hover:text-on-surface py-2">تسویه حساب</a>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+        <button onclick="orderCartViaTelegram()" class="hidden md:flex items-center gap-1.5 telegram-btn px-3.5 py-1.5 rounded-full text-xs font-semibold shadow-sm hover:shadow-md cursor-pointer" title="ارتباط تلگرام">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.832.916z"/></svg>
+          <span>سفارش با تلگرام</span>
+        </button>
+
+        <button onclick="openSearchModal()" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" title="جستجو">
+          <span class="material-symbols-outlined text-[20px]">search</span>
+        </button>
+
+        <button onclick="openCartDrawer()" class="flex items-center gap-2 bg-surface-container-low hover:bg-surface-container-high transition-all py-1.5 px-3.5 rounded-full cursor-pointer hover:shadow-sm border border-outline-variant/30 group">
+          <div class="relative flex items-center justify-center">
+            <span class="material-symbols-outlined text-primary text-[20px] transition-transform duration-300 group-hover:-translate-y-0.5">shopping_bag</span>
+            <span class="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-primary text-on-primary text-[10px] font-bold flex items-center justify-center leading-none cart-counter-badge">۲</span>
+          </div>
+          <span class="hidden md:inline text-xs text-on-surface font-semibold header-cart-total">۱,۴۸۰,۰۰۰ تومان</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================
+       CONTACT CONTENT
+       ======================== -->
+  <main class="w-full pt-32 pb-16 bg-surface">
+    
+    <!-- Hero Header -->
+    <section class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin mb-12 text-right">
+      <div class="bg-surface-container-low rounded-3xl p-8 lg:p-12 border border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="max-w-xl">
+          <span class="text-xs text-primary font-semibold tracking-wider">پشتیبانی و مشاوره محرمانه بانوان</span>
+          <h1 class="font-serif text-3xl sm:text-4xl text-on-surface font-medium leading-tight mt-1 mb-3">
+            همراه شما در انتخاب ایده‌آل‌ترین سایز و مدل
+          </h1>
+          <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+            مشاوران متخصص خانم در آتلیه لیندا آماده‌اند تا شما را در محاسبه دقیق سایز کاپ، راهنمایی پارچه‌ها و ارسال فوری سفارش‌ها به صورت صوتی، متنی در تلگرام یا تلفنی همراهی نمایند.
+          </p>
+        </div>
+
+        <!-- Telegram Fast Contact Pill -->
+        <div class="bg-surface p-5 rounded-2xl shadow-md border border-outline-variant/30 flex flex-col gap-3 shrink-0 w-full md:w-80">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-full telegram-btn flex items-center justify-center">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.832.916z"/></svg>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-on-surface">چت مستقیم تلگرام</h4>
+              <p class="text-[11px] text-primary">@LyndaLingerie_Admin</p>
+            </div>
+          </div>
+          <button onclick="orderSingleViaTelegram('سلام، جهت مشاوره خصوصی فیتینگ پیام می‌دهم.')" class="w-full telegram-btn py-2.5 rounded-xl text-xs font-semibold shadow hover:scale-[1.02] transition-transform">
+            شروع گفتگو در تلگرام
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid: Contact Info & Interactive Message Form -->
+    <div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin mb-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 text-right">
+        
+        <!-- Channels (5 Cols) -->
+        <div class="lg:col-span-5 flex flex-col gap-4">
+          <div class="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 flex items-start gap-4 shadow-sm">
+            <div class="w-11 h-11 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0">
+              <span class="material-symbols-outlined text-[22px]">call</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-on-surface">پشتیبانی تلفنی آتلیه</h3>
+              <p class="text-xs text-on-surface-variant mt-0.5">شنبه تا پنج‌شنبه: ساعت ۹:۳۰ الی ۲۰:۰۰</p>
+              <a href="tel:02188224466" class="text-sm font-bold text-primary direction-ltr inline-block mt-2 hover:underline">۰۲۱-۸۸۲۲۴۴۶۶</a>
+            </div>
+          </div>
+
+          <div class="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 flex items-start gap-4 shadow-sm">
+            <div class="w-11 h-11 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+              <span class="material-symbols-outlined text-[22px]">location_on</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-on-surface">نشانی شوروم و آتلیه مرکزی</h3>
+              <p class="text-xs text-on-surface-variant mt-0.5 leading-relaxed">
+                تهران، زعفرانیه، خیابان آصف، کوچه شقایق، پلاک ۲۴، آتلیه تخصصی لیندا (پذیرش حضوری با رزرو قبلی)
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 flex items-start gap-4 shadow-sm">
+            <div class="w-11 h-11 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shrink-0">
+              <span class="material-symbols-outlined text-[22px]">schedule</span>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-on-surface">ساعات ارسال سریع</h3>
+              <p class="text-xs text-on-surface-variant mt-0.5 leading-relaxed">
+                پیک VIP تهران: دو نوبت ظهر (۱۲ الی ۱۵) و عصر (۱۷ الی ۲۰)<br>
+                ارسال هوایی شهرستان‌ها: تحویل پست هر روز ساعت ۱۱:۰۰ صبح
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form (7 Cols) -->
+        <div class="lg:col-span-7 bg-surface-container-lowest p-6 sm:p-8 rounded-2xl border border-outline-variant/30 shadow-sm flex flex-col gap-4">
+          <div class="border-b border-outline-variant/20 pb-3">
+            <h2 class="font-serif text-lg font-bold text-on-surface">ارسال پیام یا درخواست مشاوره خصوصی</h2>
+            <p class="text-xs text-on-surface-variant mt-0.5">کارشناسان خانم ما حداکثر تا ۲ ساعت دیگر پاسخگوی شما خواهند بود.</p>
+          </div>
+
+          <form onsubmit="handleContactSubmit(event)" class="flex flex-col gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div class="flex flex-col gap-1.5">
+                <label class="text-xs font-semibold text-on-surface">نام و نام خانوادگی *</label>
+                <input required class="w-full bg-surface-container-low text-xs text-on-surface rounded-xl p-3 border border-outline-variant/30 focus:border-primary outline-none text-right" placeholder="مثلاً: سارا کاظمی" type="text" />
+              </div>
+              <div class="flex flex-col gap-1.5">
+                <label class="text-xs font-semibold text-on-surface">شماره تماس (جهت تماس یا پیامک) *</label>
+                <input required class="w-full bg-surface-container-low text-xs text-on-surface rounded-xl p-3 border border-outline-variant/30 focus:border-primary outline-none direction-ltr text-right" placeholder="0912..." type="tel" />
+              </div>
+            </div>
+
+            <div class="flex flex-col gap-1.5">
+              <label class="text-xs font-semibold text-on-surface">موضوع پیام</label>
+              <select class="w-full bg-surface-container-low text-xs text-on-surface rounded-xl p-3 border border-outline-variant/30 focus:border-primary outline-none cursor-pointer text-right">
+                <option>مشاوره سایزبندی و فیتینگ کاپ سوتین</option>
+                <option>پیگیری وضعیت ارسال سفارش</option>
+                <option>کالکشن اختصاصی عروس و نامزدی</option>
+                <option>درخواست ثبت سفارش از طریق تلگرام</option>
+                <option>سایر موارد</option>
+              </select>
+            </div>
+
+            <div class="flex flex-col gap-1.5">
+              <label class="text-xs font-semibold text-on-surface">متن پیام یا سوال شما *</label>
+              <textarea required rows="4" class="w-full bg-surface-container-low text-xs text-on-surface rounded-xl p-3 border border-outline-variant/30 focus:border-primary outline-none resize-none text-right" placeholder="پرسش یا مشخصات مد نظرتان را بنویسید..."></textarea>
+            </div>
+
+            <button type="submit" class="luxury-sheen-btn bg-primary hover:bg-primary-container text-on-primary text-xs font-semibold py-3.5 rounded-xl shadow transition-all cursor-pointer flex items-center justify-center gap-2">
+              <span class="material-symbols-outlined text-[16px]">send</span>
+              <span>ارسال پیام به مشاوران آتلیه</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FAQ Accordion Section -->
+    <section class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin mb-12 text-right">
+      <div class="border-t border-outline-variant/30 pt-10">
+        <div class="mb-6">
+          <span class="text-xs text-primary font-semibold">پاسخ به ابهامات متداول</span>
+          <h2 class="font-serif text-2xl text-on-surface font-medium mt-1">پرسش‌های متداول مشتریان لیندا</h2>
+        </div>
+
+        <div class="flex flex-col gap-3">
+          
+          <div class="bg-surface-container-lowest p-4 rounded-xl border border-outline-variant/30 cursor-pointer" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs sm:text-sm font-bold text-on-surface">آیا بسته‌بندی مرسولات کاملاً محرمانه و بدون نام است؟</h3>
+              <span class="material-symbols-outlined text-outline text-[20px] transition-transform">expand_more</span>
+            </div>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed hidden">
+              بله، صد درصد. تمامی سفارش‌ها در جعبه‌های مات سخت و سلفون‌کشی شده قرار گرفته و روی برچسب پستی صرفاً نام تحویل‌گیرنده و کد پستی بدون هرگونه اشاره به نام لیندا، لباس زیر یا تصویر کالا درج می‌گردد.
+            </p>
+          </div>
+
+          <div class="bg-surface-container-lowest p-4 rounded-xl border border-outline-variant/30 cursor-pointer" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs sm:text-sm font-bold text-on-surface">در صورت مناسب نبودن سایز پس از پرو، شرایط تعویض چگونه است؟</h3>
+              <span class="material-symbols-outlined text-outline text-[20px] transition-transform">expand_more</span>
+            </div>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed hidden">
+              شما تا ۴۸ ساعت فرصت دارید با پشتیبانی لیندا تماس بگیرید. در صورتی که پلمب بهداشتی لباس باز نشده باشد، سفیر اختصاصی ما سایز جدید را درب منزل تحویل داده و ست قبلی را به صورت رایگان مرجوع می‌نماید.
+            </p>
+          </div>
+
+          <div class="bg-surface-container-lowest p-4 rounded-xl border border-outline-variant/30 cursor-pointer" onclick="toggleFaq(this)">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs sm:text-sm font-bold text-on-surface">آیا امکان ثبت سفارش مستقیم از طریق تلگرام وجود دارد؟</h3>
+              <span class="material-symbols-outlined text-outline text-[20px] transition-transform">expand_more</span>
+            </div>
+            <p class="text-xs text-on-surface-variant mt-2 leading-relaxed hidden">
+              بله! در کلیه صفحات وب‌سایت دکمه «سفارش با تلگرام» تعبیه شده که مشخصات کامل سبد خرید شما را مستقیماً به ادمین تلگرام ارسال می‌کند و بدون نیاز به ثبت‌نام طولانی می‌توانید سفارش خود را نهایی فرمایید.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================
+       FOOTER
+       ======================== -->
+  <footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-8 text-center text-xs text-on-surface-variant">
+    <div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>تمامی حقوق برای برند پوشاک لیندا (Lynda Lingerie Atelier) محفوظ است. © ۱۴۰۳</span>
+      <div class="flex items-center gap-3">
+        <a href="index.html" class="hover:text-primary">صفحه نخست</a>
+        <span>•</span>
+        <a href="product.html" class="hover:text-primary">کاتالوگ محصولات</a>
+        <span>•</span>
+        <a href="about.html" class="hover:text-primary">درباره ما</a>
+        <span>•</span>
+        <a href="checkout.html" class="hover:text-primary">تسویه حساب</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================
+       MODALS
+       ======================== -->
+  <div id="cartDrawerBackdrop" onclick="closeCartDrawer()" class="fixed inset-0 bg-black/50 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <aside id="cartDrawer" class="fixed top-0 left-0 bottom-0 w-full sm:w-96 bg-surface z-50 shadow-2xl transform translate-x-full transition-transform duration-300 ease-out flex flex-col border-r border-outline-variant/30">
+    <div class="p-4 border-b border-outline-variant/30 flex items-center justify-between bg-surface-container-low">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-primary text-[22px]">shopping_bag</span>
+        <h3 class="font-serif text-base font-bold text-on-surface">سبد خرید شما</h3>
+        <span id="cartDrawerItemCount" class="text-xs bg-primary/10 text-primary font-bold px-2 py-0.5 rounded-full">۲ کالا</span>
+      </div>
+      <button onclick="closeCartDrawer()" class="w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface">
+        <span class="material-symbols-outlined text-[20px]">close</span>
+      </button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-4 flex flex-col gap-3" id="cartDrawerItemsList"></div>
+    <div class="p-4 border-t border-outline-variant/30 bg-surface-container-low flex flex-col gap-3">
+      <div class="flex items-center justify-between text-xs text-on-surface-variant">
+        <span>جمع اقلام:</span>
+        <span id="cartDrawerSubtotal" class="font-bold text-on-surface">۳,۶۳۰,۰۰۰ تومان</span>
+      </div>
+      <div class="flex items-center justify-between text-sm text-on-surface font-semibold">
+        <span>مبلغ قابل پرداخت با تخفیف:</span>
+        <span id="cartDrawerTotal" class="font-serif text-lg font-bold text-primary">۳,۳۶۲,۰۰۰ تومان</span>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mt-1">
+        <a href="checkout.html" class="luxury-sheen-btn bg-primary hover:bg-primary-container text-on-primary text-xs font-semibold py-3 rounded-xl shadow text-center">
+          تسویه حساب
+        </a>
+        <button onclick="orderCartViaTelegram()" class="telegram-btn text-xs font-semibold py-3 rounded-xl shadow flex items-center justify-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.832.916z"/></svg>
+          <span>سفارش با تلگرام</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Telegram Modal -->
+  <div id="telegramOrderModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4">
+    <div class="bg-surface rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-outline-variant/30 flex flex-col gap-4 text-right">
+      <div class="flex items-center justify-between border-b border-outline-variant/30 pb-3">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full telegram-btn flex items-center justify-center">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.832.916z"/></svg>
+          </div>
+          <div>
+            <h3 class="font-serif text-base font-bold text-on-surface">ثبت سفارش مستقیم در تلگرام</h3>
+            <p class="text-xs text-outline">مشاوره خصوصی بانوان و ارسال فوری</p>
+          </div>
+        </div>
+        <button onclick="closeTelegramModal()" class="w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface">
+          <span class="material-symbols-outlined text-[20px]">close</span>
+        </button>
+      </div>
+      <textarea id="telegramMessagePreview" rows="7" readonly class="w-full bg-surface-container-low p-3 rounded-xl font-mono text-xs text-on-surface border border-outline-variant/30 leading-relaxed outline-none resize-none"></textarea>
+      <div class="flex items-center gap-2">
+        <a id="telegramDirectLink" href="#" target="_blank" class="flex-1 telegram-btn py-3 rounded-xl text-center text-xs font-semibold shadow flex items-center justify-center gap-2">
+          <span>ارسال مستقیم به چت تلگرام لیندا</span>
+          <span class="material-symbols-outlined text-[16px]">send</span>
+        </a>
+        <button onclick="copyTelegramMessage()" class="bg-surface-container-high hover:bg-surface-variant text-on-surface text-xs font-semibold px-4 py-3 rounded-xl transition-colors border border-outline-variant/30 shrink-0">
+          کپی متن
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div id="searchModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-start justify-center p-4 pt-20">
+    <div class="bg-surface rounded-2xl max-w-xl w-full p-5 shadow-2xl border border-outline-variant/30 flex flex-col gap-4 text-right">
+      <div class="flex items-center justify-between border-b border-outline-variant/30 pb-3">
+        <div class="flex items-center gap-2 flex-1">
+          <span class="material-symbols-outlined text-primary text-[22px]">search</span>
+          <input type="text" id="searchInputField" oninput="handleSearchInput(this.value)" placeholder="نام مدل (والنتینا، ژیزل، آلیس، فلورا)..." class="w-full bg-transparent border-0 outline-none text-sm text-on-surface placeholder:text-outline text-right" />
+        </div>
+        <button onclick="closeSearchModal()" class="w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface">
+          <span class="material-symbols-outlined text-[20px]">close</span>
+        </button>
+      </div>
+      <div class="max-h-80 overflow-y-auto flex flex-col gap-2" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileNavBackdrop" onclick="toggleMobileMenu()" class="fixed inset-0 bg-black/50 z-50 hidden opacity-0 transition-opacity duration-300"></div>
+  <aside id="mobileNavDrawer" class="fixed top-0 right-0 bottom-0 w-72 bg-surface z-50 shadow-2xl transform translate-x-full transition-transform duration-300 ease-out flex flex-col border-l border-outline-variant/30">
+    <div class="p-4 border-b border-outline-variant/30 flex items-center justify-between bg-surface-container-low">
+      <div class="flex items-center gap-2">
+        <span class="font-serif text-xl text-primary font-bold">لیندا</span>
+        <span class="text-xs text-outline">منوی دسترسی سریع</span>
+      </div>
+      <button onclick="toggleMobileMenu()" class="w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-on-surface">
+        <span class="material-symbols-outlined text-[20px]">close</span>
+      </button>
+    </div>
+    <div class="flex-1 overflow-y-auto p-4 flex flex-col gap-2 text-sm font-medium">
+      <a href="index.html" class="p-2 rounded-lg hover:bg-surface-container text-on-surface">صفحه نخست</a>
+      <a href="product.html" class="p-2 rounded-lg hover:bg-surface-container text-on-surface">ست‌های دانتل و مجلسی</a>
+      <a href="about.html" class="p-2 rounded-lg hover:bg-surface-container text-on-surface">درباره آتلیه لیندا</a>
+      <a href="contact.html" class="p-2 rounded-lg bg-primary/10 text-primary font-bold">تماس با ما و مشاوره</a>
+      <a href="checkout.html" class="p-2 rounded-lg hover:bg-surface-container text-on-surface">سبد خرید و تسویه حساب</a>
+    </div>
+  </aside>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      showToast('پیام شما با موفقیت ثبت شد. مشاوران آتلیه به زودی با شما تماس خواهند گرفت.');
+      e.target.reset();
+    }
+
+    function toggleFaq(el) {
+      const p = el.querySelector('p');
+      const icon = el.querySelector('.material-symbols-outlined');
+      if (p.classList.contains('hidden')) {
+        p.classList.remove('hidden');
+        if (icon) icon.style.transform = 'rotate(180deg)';
+      } else {
+        p.classList.add('hidden');
+        if (icon) icon.style.transform = 'rotate(0deg)';
+      }
+    }
+  </script>
+</body>
+</html>
